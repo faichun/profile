@@ -2065,20 +2065,6 @@ screen and (-ms-high-contrast:none) {
   padding-bottom: 15px
 }
 
-.m-menu .parent>a:after {
-  content: '';
-  position: absolute;
-  width: 8px;
-  height: 5px;
-  top: 50%;
-  right: 15px;
-  margin-top: -2px;
-  transform: rotate(-90deg);
-  background-image: url(../images/select-input.png);
-  background-repeat: no-repeat;
-  background-position: right center
-}
-
 .m-menu .parent.show>a:after {
   transform: rotate(0)
 }
